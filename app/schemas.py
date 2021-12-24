@@ -35,3 +35,7 @@ class UserResponse(UserBase):
 
     class Config:
         orm_mode = True
+
+
+class UserLogin(UserBase):
+    password: str
